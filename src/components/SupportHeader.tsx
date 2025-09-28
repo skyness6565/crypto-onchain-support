@@ -1,5 +1,5 @@
 import { Shield } from "lucide-react";
-import walletSecurityImg from "@/assets/wallet-security.jpg";
+import dydxTradingImg from "@/assets/dydx-trading.png";
 
 const SupportHeader = () => {
   return (
@@ -23,8 +23,8 @@ const SupportHeader = () => {
           <div className="flex justify-center mb-8">
             <div className="relative">
               <img 
-                src={walletSecurityImg} 
-                alt="CRYPTO.COM secure self-custody multi-chain wallet interface"
+                src={dydxTradingImg} 
+                alt="dYdX trading platform interface with crypto charts and mobile app"
                 className="rounded-3xl shadow-2xl max-w-md w-full hover-scale"
               />
             </div>

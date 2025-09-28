@@ -1,12 +1,17 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SupportHeader from "@/components/SupportHeader";
+import SupportActions from "@/components/SupportActions";
+import SupportGallery from "@/components/SupportGallery";
+import SupportInfo from "@/components/SupportInfo";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <SupportHeader />
+      <main className="flex flex-col items-center gap-8 pb-12">
+        <SupportActions />
+        <SupportGallery />
+        <SupportInfo />
+      </main>
     </div>
   );
 };

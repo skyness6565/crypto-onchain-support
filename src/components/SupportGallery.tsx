@@ -6,7 +6,7 @@ const SupportGallery = () => {
   const images = [
     {
       src: userIssuesImg,
-      alt: "User experiencing crypto.com account issues",
+      alt: "User experiencing CRYPTO.COM account issues",
       title: "Having Issues?",
       description: "Don't worry, we're here to help solve any problems you're experiencing."
     },
@@ -31,7 +31,7 @@ const SupportGallery = () => {
           We're Here to Help
         </h3>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Our dedicated support team provides comprehensive assistance for all your crypto.com needs.
+          Our dedicated support team provides comprehensive assistance for all your CRYPTO.COM needs.
         </p>
       </div>
       

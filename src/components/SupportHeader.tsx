@@ -7,7 +7,7 @@ const SupportHeader = () => {
         <div className="flex items-center justify-center gap-3 mb-6">
           <Shield className="w-8 h-8 text-primary" />
           <h1 className="text-3xl font-bold text-foreground">
-            crypto.com
+            CRYPTO.COM
           </h1>
         </div>
         <div className="text-center">
@@ -15,7 +15,7 @@ const SupportHeader = () => {
             Customer Support Center
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get instant help with your crypto.com account. Our support team is available 24/7 to assist you.
+            Get instant help with your CRYPTO.COM account. Our support team is available 24/7 to assist you.
           </p>
         </div>
       </div>

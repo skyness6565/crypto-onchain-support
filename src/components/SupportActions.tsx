@@ -26,7 +26,7 @@ const SupportActions = () => {
               Start Live Chat
             </h3>
             <p className="text-muted-foreground mb-6">
-              Connect instantly with our support team for real-time assistance with your account.
+              Connect instantly with our CRYPTO.COM support team for real-time assistance with your account.
             </p>
           </div>
           <Button 

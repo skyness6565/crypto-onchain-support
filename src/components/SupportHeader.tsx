@@ -1,4 +1,5 @@
 import { Shield } from "lucide-react";
+import walletSecurityImg from "@/assets/wallet-security.jpg";
 
 const SupportHeader = () => {
   return (
@@ -17,6 +18,17 @@ const SupportHeader = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12">
             Get instant help with your CRYPTO.COM account. Our support team is available 24/7 to assist you.
           </p>
+          
+          {/* Featured wallet image */}
+          <div className="flex justify-center mb-8">
+            <div className="relative">
+              <img 
+                src={walletSecurityImg} 
+                alt="CRYPTO.COM secure self-custody multi-chain wallet interface"
+                className="rounded-3xl shadow-2xl max-w-md w-full hover-scale"
+              />
+            </div>
+          </div>
           
           {/* Three-column feature section */}
           <div className="grid md:grid-cols-3 gap-8 mt-12">
